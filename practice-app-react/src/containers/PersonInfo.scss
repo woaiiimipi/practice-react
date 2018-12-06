@@ -1,0 +1,46 @@
+.personInfo {
+  transform: translateX(-50%);
+  margin-left: 50%;
+  margin-top: 50px;
+  width: 50%;
+  background-color: rgb(137, 222, 255);
+  //   text-align: right;
+  border-radius: 10px 10px 0px 10px;
+  padding: {
+      top: 20px;
+      bottom: 20px;
+  }
+  box-shadow: 10px 10px 10px grey;
+  .left-label {
+    // background: red;
+    display: block;
+    float: left;
+    width: 45%;
+    text-align: right;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .right-input {
+    display: block;
+    width: 55%;
+    float: left;
+    margin-bottom: 10px;
+    input{
+        border-radius: 7px;
+        border-color: white;
+    }
+    span {
+      background {
+        color: green;
+        
+      }
+      color: rgb(255, 60, 0);
+      font: {
+        size: 10px;
+      }
+    }
+  }
+  .submit{
+      text-align: center;
+  }
+}

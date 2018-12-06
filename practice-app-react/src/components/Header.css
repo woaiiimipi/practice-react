@@ -1,0 +1,94 @@
+nav {
+	overflow: visible;
+
+	height: 48px;
+	display: block;
+	/* text-align: center; */
+	/* border: 1px solid; */
+	background-color: rgb(220, 234, 245);
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 0;
+
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.nav-row {
+	overflow: hidden;
+	width: 95%;
+  margin: auto;
+  margin-top: 50px;
+}
+.nav-col {
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+/**logo */
+.logo-img-pc{
+  src: url(../imgs/grapecity.png)
+}
+/* 导航按钮 */
+ul li {
+	display: inline;
+	margin-left: 2px;
+	box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.2);
+}
+/* 搜索框和按钮 */
+#nav-searchbox {
+	overflow: visible;
+	text-align: right;
+	transform: translateY(-50%);
+	margin-top: 24px;
+}
+#nav-searchbox-form {
+	margin-right: 10px;
+	overflow: visible;
+}
+#search-submit {
+	background-color: rgb(123, 164, 240);
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 0;
+}
+#nav-searchbox input {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	height: 30px;
+	border: 1px solid white;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+#search-tip {
+	position: absolute;
+	width: 100px;
+	height: 200px;
+	background-color: rgb(73, 53, 53);
+}
+/* 移动端使用的列表图表 */
+#list-div-img {
+	display: none;
+}
+/* 导航按钮的链接 */
+li a:link,
+a:visited {
+	/* margin-right: 2px; */
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #98bf21;
+	text-align: center;
+	padding: 6px;
+	text-decoration: none;
+}
+li a:hover,
+a:active {
+	background-color: #7a991a;
+}
+.mobile-menu-items {
+	display: none;
+}
